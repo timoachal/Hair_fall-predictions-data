@@ -1,0 +1,39 @@
+---
+title: "Hair Health Prediction"
+author: "Timothy Achala"
+format: docx
+editor: visual
+---
+
+This dataset contains information about various factors that may contribute to baldness in individuals. Each row represents a unique individual, and the columns represent different factors related to genetics, hormonal changes, medical conditions, medications an treatments, nutritional deficiencies, stress levels, age, poor hair care habits, environmental factors, smoking habits, weight loss, and the presence or absence of baldness.
+
+## Study Objective
+
+The dataset is intended for exploratory data analysis, modelling and predictive analytics tasks aimed at understanding the relationship between various factors and the likelihood of baldness in individuals.
+
+## Importing required libraries
+
+```{r}
+library(tidyverse)
+library(flextable)
+library(e1071)
+library(flextable)
+library(dlookr)
+library(mice)
+library(VIM)
+library(gtExtras)
+library(gtsummary)
+library(visdat)
+library(ggstatsplot)
+library(ggcorrplot)
+library(randomForest)
+library(caret)
+library(PerformanceAnalytics)
+library(performance)
+library(class)
+library(caTools)
+library(sjPlot)
+library(report)
+library(ggeffects)
+library(effectsize)
+```

@@ -1,0 +1,12 @@
+name: HairApp
+title: HairApp
+username: hair-falls
+account: hair-falls
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 14519033
+bundleId: 10113594
+url: https://hair-falls.shinyapps.io/HairApp/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
