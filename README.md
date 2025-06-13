@@ -30,7 +30,7 @@ The analysis is performed in R using the tidymodels ecosystem, which streamlines
 Install the required packages in R:
 
 ```r
-install.packages(c("tidymodels", "xgboost", "readr", "dplyr", "ggplot2"))
+install.packages(c("tidymodels", "xgboost", "tidyverse"))
 ```
 
 ## Data
@@ -67,7 +67,7 @@ install.packages(c("tidymodels", "xgboost", "readr", "dplyr", "ggplot2"))
 
 ## Usage
 
-Below is a simplified example. Replace `"hair_fall_data.csv"` with your data file.
+Below is a simplified example.
 
 ```r
 library(tidymodels)
